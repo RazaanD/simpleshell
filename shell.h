@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_H_
-#define _HOLBERTON_H_
+#ifndef _SHELL_H_
+#define _SHELL_H_
 
 /* Misc Includes */
 #include <stddef.h>
@@ -36,3 +36,5 @@ int run_execve(char **tokens, char **envp);
 char *run_flag(char *app, char **envp);
 void free_double(char **func);
 char is_a_path(char *token);
+
+#endif
