@@ -36,5 +36,5 @@ int run_execve(char **tokens, char **envp);
 char *run_flag(char *app, char **envp);
 void free_double(char **func);
 char is_a_path(char *token);
-
+int mul(int a, int b);
 #endif
