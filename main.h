@@ -1,1 +1,1 @@
-void print_triangle(int size);
+int mul(int a, int b);
